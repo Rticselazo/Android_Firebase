@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Login">
+
+    <!--
+         <Button
+            android:id="@+id/btn_sign_out"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:background="@color/colorAccent"
+            android:onClick="cerrarsesion"
+            android:text="Cerrar"
+            android:textColor="#fff" />
+-->
+
+    <Button
+
+        android:id="@+id/googlebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/white"
+        android:drawableStart="@drawable/fui_ic_googleg_color_24dp"
+        android:paddingStart="16dp"
+        android:text="Google"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorPrimaryDark" />
+</LinearLayout>
